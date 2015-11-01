@@ -17,8 +17,7 @@
     "type": "git",
     "url": "git+https://github.com/michaeljacobdavis/jira-cli.git"
   },
-  "author": "Mike Davis <mdavis@walmartlabs.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/michaeljacobdavis/jira-cli/issues"
   },
