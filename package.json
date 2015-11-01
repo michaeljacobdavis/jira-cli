@@ -1,7 +1,6 @@
 {
   "name": "jira",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,5 +11,17 @@
     "colors": "^1.1.2",
     "minimist": "^1.2.0",
     "wreck": "^6.3.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaeljacobdavis/jira-cli.git"
+  },
+  "author": "Mike Davis <mdavis@walmartlabs.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaeljacobdavis/jira-cli/issues"
+  },
+  "homepage": "https://github.com/michaeljacobdavis/jira-cli#readme",
+  "description": ""
 }
