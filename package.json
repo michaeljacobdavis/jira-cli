@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "lab test -v -c"
   },
   "dependencies": {
     "bossy": "^2.0.0",
@@ -16,7 +16,13 @@
     "readline-sync": "^1.2.21",
     "wreck": "^6.3.0"
   },
-  "devDependencies": {},
+  "bin": {
+    "jira": "./bin/jira"
+  },
+  "devDependencies": {
+    "code": "^1.0.0",
+    "lab": "^6.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/michaeljacobdavis/jira-cli.git"
