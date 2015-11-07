@@ -19,6 +19,9 @@ describe('Issue', function () {
         status: {
           name: 'Draft'
         },
+        assignee: {
+          displayName: 'Test'
+        },
         summary: 'Blah'
       }
     };
@@ -29,7 +32,8 @@ describe('Issue', function () {
       expect(result.id).to.equal(apiIssue.key);
       expect(result.status).to.equal(apiIssue.fields.status.name);
       expect(result.summary).to.equal(apiIssue.fields.summary);
-      
+      expect(result.assignee.displayName).to.equal(apiIssue.fields.assignee.displayName);
+
       done();
     });
   });

@@ -5,6 +5,5 @@ var command = argv._.shift() || 'ls';
 try {
   require('../lib/cli/' + command)();
 } catch(e) {
-  if ('MODULE_NOT_FOUND' !== e.code) throw e;
-  throw new Error('Unrecognized command "' + command + '"');
+  console.log(e);
 }
